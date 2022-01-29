@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #6b75ff;
+  --primary-warning-color: #ffbe4f;
+  --primary-danger-color: #ff695b;
+  --primary-success-color: #3dcc79;
+
+  --primary-color-hover: #525ce6;
+  --primary-warning-color-hover: #e6a536;
+  --primary-danger-color-hover: #e65042;
+  --primary-success-color-hover: #24b360;
+
+  --background: #dbdbdb;
+  --active-color: #1d9bf0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 62.5%;
+}
+
+.btn {
+  background-color: var(--primary-color);
+  padding: 2rem;
+  border: none;
+}
+.btn:hover {
+  background-color: var(--primary-color-hover);
+}
+
+.landing-page {
+  text-align: center;
+}
+
+.landing-page-container {
+  /* padding: 5rem; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+  padding-top: 20vh;
+  width: 80%;
+  margin: auto;
+}
+
+.landing-title {
+  font-weight: 900;
+  font-size: 8rem;
+  text-align: right;
+}
+
+.landing-logo {
+  flex-grow: 1 1 0;
+}
+
+.text-highlight {
+  color: var(--active-color);
+}
+
+/* Button styles */
+.btn {
+  border: none;
+  color: white;
+}
+.btn:hover,
+.btn:active,
+.btn:focus {
+  outline: none;
+}
+
+.landing-button {
+  margin-top: 10rem;
+  padding: 2rem;
+  background-color: var(--primary-color);
+  border-radius: 40px;
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+.landing-button:hover {
+  background-color: var(--primary-color-hover);
+}
