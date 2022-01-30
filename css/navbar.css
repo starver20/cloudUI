@@ -1,0 +1,11 @@
+.header-container {
+  width: 100%;
+  height: 8rem;
+  padding: 0 1rem;
+  margin-bottom: 5rem;
+}
+
+.nav-logo {
+  width: 8rem;
+  height: 100%;
+}

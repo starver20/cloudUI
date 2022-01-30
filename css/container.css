@@ -1,0 +1,104 @@
+.main-container {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-header {
+  flex: 0 0 auto;
+}
+
+.main-body {
+  flex: 1 0 auto;
+  display: flex;
+}
+.main-content-container {
+  position: relative;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.main-content {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.main-sidebar {
+  padding: 2rem;
+  flex: 0 0 auto;
+  width: 15vw;
+}
+
+.sidebar-header {
+  font-size: 2rem;
+}
+
+.sidebar-item {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  padding: 1rem 1rem;
+  cursor: pointer;
+}
+
+.sidebar-item:hover {
+  color: var(--primary-cta-color);
+}
+
+.component-title {
+  font-size: 3rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.component-info {
+  font-size: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.component-type {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.component-example {
+  width: 100%;
+  border: 1px solid gray;
+  background-color: var(--background);
+  padding: 2rem 2rem 0;
+  border-radius: 5px;
+}
+
+.component-code-img {
+  margin-top: 4rem;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.next-link {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.next-link a {
+  color: black;
+  font-size: 1.5rem;
+  width: fit-content;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+.next-link a:hover {
+  background-color: var(--secondary-cta-color);
+}
+
+.active {
+  color: var(--primary-cta-color);
+  background-color: var(--secondary-cta-color);
+  border-right: 3px solid var(--primary-cta-color);
+  font-weight: 500;
+  font-size: 1.8rem;
+}
