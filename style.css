@@ -7,30 +7,42 @@
 }
 
 :root {
-  --primary-color: #6b75ff;
+  --primary-cta-color: #1d9bf0;
   --primary-warning-color: #ffbe4f;
   --primary-danger-color: #ff695b;
   --primary-success-color: #3dcc79;
 
-  --primary-color-hover: #525ce6;
+  --primary-cta-color-hover: #0482d7;
   --primary-warning-color-hover: #e6a536;
   --primary-danger-color-hover: #e65042;
   --primary-success-color-hover: #24b360;
 
-  --background: #dbdbdb;
-  --active-color: #1d9bf0;
+  --secondary-cta-color: #cfe2ff;
+  --secondary-warning-color: #fff3cd;
+  --secondary-danger-color: #f8d7da;
+  --secondary-success-color: #d1e7dd;
+
+  --background: #e9ecef;
 
   font-family: 'Roboto', sans-serif;
   font-size: 62.5%;
 }
 
-.btn {
-  background-color: var(--primary-color);
-  padding: 2rem;
-  border: none;
+li {
+  list-style: none;
 }
-.btn:hover {
-  background-color: var(--primary-color-hover);
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+hr {
+  margin: 3rem auto;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid var(--background);
 }
 
 .landing-page {
@@ -38,7 +50,6 @@
 }
 
 .landing-page-container {
-  /* padding: 5rem; */
   display: grid;
   grid-template-columns: 1fr 1fr;
   place-items: center;
@@ -60,31 +71,29 @@
 }
 
 .text-highlight {
-  color: var(--active-color);
+  color: var(--primary-cta-color);
 }
 
 /* Button styles */
-.btn {
-  border: none;
-  color: white;
-}
-.btn:hover,
-.btn:active,
-.btn:focus {
-  outline: none;
-}
-
-.landing-button {
-  margin-top: 10rem;
+.landing-btn {
+  background-color: var(--primary-cta-color);
   padding: 2rem;
-  background-color: var(--primary-color);
+  color: white;
+  margin-top: 10rem;
+  background-color: var(--primary-cta-color);
+  border: none;
   border-radius: 4rem;
   font-size: 3rem;
   cursor: pointer;
 }
+.landing-btn:hover {
+  background-color: var(--primary-cta-color-hover);
+}
 
-.landing-button:hover {
-  background-color: var(--primary-color-hover);
+.landing-btn:hover,
+.landing-btn:active,
+.landing-btn:focus {
+  outline: none;
 }
 
 /* Responsive */
