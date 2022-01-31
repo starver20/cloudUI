@@ -1,0 +1,102 @@
+.btn {
+  padding: 1rem;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: 200;
+  cursor: pointer;
+  margin: 0.5rem;
+}
+
+.primary {
+  background-color: var(--primary-cta-color);
+}
+
+.secondary {
+  background-color: var(--secondary-cta-color);
+  color: black;
+}
+
+.success {
+  background-color: var(--primary-success-color);
+}
+
+.warning {
+  background-color: var(--primary-warning-color);
+  color: black;
+}
+
+.danger {
+  background-color: var(--primary-danger-color);
+}
+
+.primary:hover {
+  background-color: var(--primary-cta-color-hover);
+}
+
+.secondary:hover {
+  background-color: var(--secondary-cta-color);
+}
+
+.success:hover {
+  background-color: var(--primary-success-color-hover);
+}
+
+.warning:hover {
+  background-color: var(--primary-warning-color-hover);
+}
+
+.danger:hover {
+  background-color: var(--primary-danger-color-hover);
+}
+
+.btn-xs {
+  font-size: 12px;
+  padding: 5px;
+}
+
+.btn-sm {
+  font-size: 14px;
+  padding: 10px;
+}
+
+.btn-md {
+  font-size: 16px;
+  padding: 15px;
+}
+
+.btn-lg {
+  font-size: 18px;
+  padding: 18px;
+}
+
+.link {
+  padding: 0;
+}
+
+.link a {
+  color: var(--primary-cta-color);
+}
+
+.link:hover {
+  text-decoration: underline 2px solid var(--primary-cta-color-hover);
+}
+
+.btn-icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-icon span {
+  margin-right: 5px;
+}
+
+.btn-float {
+  background-color: var(--primary-danger-color);
+  border-radius: 100%;
+  width: 60px;
+  height: 60px;
+  font-size: 32px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.23);
+}

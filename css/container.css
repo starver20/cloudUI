@@ -129,3 +129,10 @@
   align-items: baseline;
   flex-wrap: wrap;
 }
+
+.button-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
