@@ -1,5 +1,5 @@
 .main-container {
-  width: 80%;
+  width: 60%;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -17,10 +17,11 @@
   position: relative;
   margin: 0 auto;
   padding: 2rem;
+  width: 60%;
 }
 
 .main-content {
-  width: 60%;
+  /* width: 100%; */
   margin: 0 auto;
 }
 
@@ -84,7 +85,12 @@
   border-radius: 5px;
 }
 
-.component-code-img {
+.component-code {
+  margin-top: 4rem;
+  width: 100%;
+}
+
+.component-code-ex {
   margin-top: 4rem;
   width: 100%;
   border-radius: 5px;

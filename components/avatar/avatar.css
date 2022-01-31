@@ -11,32 +11,32 @@
   border-radius: 5px;
 }
 
-.xs {
+.avatar-xs {
   width: 24px;
   height: 24px;
 }
 
-.sm {
+.avatar-sm {
   width: 32px;
   height: 32px;
 }
 
-.md {
+.avatar-md {
   width: 48px;
   height: 48px;
 }
 
-.lg {
+.avatar-lg {
   width: 64px;
   height: 64px;
 }
 
-.xl {
+.avatar-xl {
   width: 96px;
   height: 96px;
 }
 
-.xxl {
+.avatar-xxl {
   width: 128px;
   height: 128px;
 }
