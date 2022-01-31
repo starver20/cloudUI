@@ -81,7 +81,7 @@
   width: 100%;
   border: 1px solid gray;
   background-color: var(--background);
-  padding: 2rem 2rem 0;
+  padding: 2rem;
   border-radius: 5px;
 }
 
@@ -118,6 +118,14 @@
 .avatar-container {
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  align-items: baseline;
+  flex-wrap: wrap;
+}
+
+/* badge */
+.badges-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
   flex-wrap: wrap;
 }
