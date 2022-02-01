@@ -1,0 +1,40 @@
+.img {
+  margin: 8px;
+}
+
+.img-sm {
+  width: 100px;
+}
+
+.img-md {
+  width: 150px;
+}
+
+.img-lg {
+  width: 200px;
+}
+
+.img-res {
+  width: 100%;
+}
+
+.radius-10 {
+  border-radius: 10px;
+}
+
+.radius-20 {
+  border-radius: 20px;
+}
+.radius-30 {
+  border-radius: 30px;
+}
+.radius-40 {
+  border-radius: 40px;
+}
+.radius-50 {
+  border-radius: 50px;
+}
+
+.radius-full {
+  border-radius: 100%;
+}
