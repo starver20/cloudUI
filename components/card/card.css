@@ -152,7 +152,7 @@ svg {
 
 /* horizontal card */
 .horizontal {
-  width: 280px;
+  width: 300px;
 }
 .horizontal-content {
   display: flex;
