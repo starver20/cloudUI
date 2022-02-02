@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../../style.css" />
-    <link rel="stylesheet" href="./input.css" />
+    <link rel="stylesheet" href="./modal.css" />
     <link rel="stylesheet" href="../../css/container.css" />
     <link rel="stylesheet" href="../../css/navbar.css" />
+    <link rel="stylesheet" href="../button/button.css" />
     <title>Input</title>
   </head>
   <body>
@@ -56,8 +57,8 @@
             <a href="../button/button.html" class="sidebar-item">Button</a>
             <a href="../card/card.html" class="sidebar-item">Card</a>
             <a href="../image/image.html" class="sidebar-item">Image</a>
-            <a href="#" class="sidebar-item active">Input</a>
-            <a href="../modal/modal.html" class="sidebar-item">Modal</a>
+            <a href="../input/input.html" class="sidebar-item">Input</a>
+            <a href="#" class="sidebar-item active">Modal</a>
             <a href="../simplifiedGrid/simplifiedGrid.html" class="sidebar-item"
               >Simplified Grid</a
             >
@@ -65,135 +66,42 @@
         </aside>
         <div class="main-content-container">
           <div class="main-content">
-            <h1 class="component-title">Input</h1>
+            <h1 class="component-title">Modal</h1>
             <p class="component-info">
-              The Input component is a component that is used to get user input
-              either through text box or radio and checkboxes.
+              A modal is a window laid over the main window to attract full
+              attention of the user. It can be dismissed by either clicking on
+              the buttons or the backdrop
             </p>
-            <div class="component-type">Text Input</div>
 
-            <div class="component-example">
-              <div class="inp-container-col">
-                <div class="inp-wrapper">
-                  <label for="email" class="inp-label">Email</label>
-                  <input
-                    id="email"
-                    class="inp"
-                    type="text"
-                    placeholder="Enter Email"
-                  />
-                </div>
-                <div class="inp-wrapper inp-err">
-                  <label for="password" class="inp-label">Password</label>
-                  <input
-                    id="password"
-                    class="inp"
-                    type="password"
-                    placeholder="Enter Password"
-                  />
-                  <p class="inp-err-msg">* Please enter a valid password</p>
-                </div>
-              </div>
-            </div>
-            <div class="component-code">
-              <iframe
-                src="https://carbon.now.sh/embed?bg=rgba%2866%2C66%2C66%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522inp-wrapper%2522%253E%250A%2520%2520%2520%253Clabel%2520for%253D%2522email%2522%2520class%253D%2522inp-label%2522%253EEmail%253C%252Flabel%253E%250A%2520%2520%2520%253Cinput%250A%2520%2520%2520%2520%2520%2520id%253D%2522email%2522%250A%2520%2520%2520%2520%2520%2520class%253D%2522inp%2522%250A%2520%2520%2520%2520%2520%2520type%253D%2522text%2522%250A%2520%2520%2520%2520%2520%2520placeholder%253D%2522Enter%2520Email%2522%250A%2520%2520%2520%2520%2520%2520%252F%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522inp-wrapper%2520inp-err%2522%253E%250A%2520%2520%2520%253Clabel%2520for%253D%2522password%2522%2520class%253D%2522inp-label%2522%253EPassword%253C%252Flabel%253E%250A%2520%2520%2520%253Cinput%250A%2520%2520%2520%2520%2520%2520id%253D%2522password%2522%250A%2520%2520%2520%2520%2520%2520class%253D%2522inp%2522%250A%2520%2520%2520%2520%2520%2520type%253D%2522password%2522%250A%2520%2520%2520%2520%2520%2520placeholder%253D%2522Enter%2520Password%2522%250A%2520%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%253Cp%2520class%253D%2522inp-err-msg%2522%253E*%2520Please%2520enter%2520a%2520valid%2520password%253C%252Fp%253E%250A%253C%252Fdiv%253E"
-                style="
-                  width: 100%;
-                  height: 525px;
-                  border: 0;
-                  transform: scale(1);
-                  overflow: hidden;
-                "
-                sandbox="allow-scripts allow-same-origin"
-              >
-              </iframe>
-            </div>
-            <hr />
-            <div class="component-type">Radio Input</div>
-
-            <div class="component-example">
-              <div class="inp-container-row">
-                <label for="checked" class="radio-label">
-                  <input
-                    id="checked"
-                    class="radio-inp"
-                    type="radio"
-                    name="sample"
-                    checked
-                  />
-                  Checked
-                </label>
-                <label for="unchecked" class="radio-label">
-                  <input
-                    for="unchecked"
-                    class="radio-inp"
-                    name="sample"
-                    type="radio"
-                  />
-                  Unchecked
-                </label>
-                <label for="disabled" class="radio-label disabled">
-                  <input
-                    for="disabled"
-                    class="radio-inp"
-                    type="radio"
-                    name="sample"
-                    disabled
-                  />
-                  Disabled
-                </label>
-              </div>
-            </div>
-            <div class="component-code">
-              <iframe
-                src="https://carbon.now.sh/embed?bg=rgba%2866%2C66%2C66%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Clabel%2520for%253D%2522checked%2522%2520class%253D%2522radio-label%2522%253E%250A%253Cinput%250A%2520%2520%2520id%253D%2522checked%2522%250A%2520%2520%2520class%253D%2522radio-inp%2522%250A%2520%2520%2520type%253D%2522radio%2522%250A%2520%2520%2520name%253D%2522sample%2522%250A%2520%2520%2520checked%250A%2520%2520%2520%252F%253E%250AChecked%250A%253C%252Flabel%253E%250A%253Clabel%2520for%253D%2522unchecked%2522%2520class%253D%2522radio-label%2522%253E%250A%253Cinput%250A%2520%2520%2520for%253D%2522unchecked%2522%250A%2520%2520%2520class%253D%2522radio-inp%2522%250A%2520%2520%2520name%253D%2522sample%2522%250A%2520%2520%2520type%253D%2522radio%2522%250A%2520%2520%2520%252F%253E%250AUnchecked%250A%253C%252Flabel%253E%250A%253Clabel%2520for%253D%2522disabled%2522%2520class%253D%2522radio-label%2520disabled%2522%253E%250A%253Cinput%250A%2520%2520%2520for%253D%2522disabled%2522%250A%2520%2520%2520class%253D%2522radio-inp%2522%250A%2520%2520%2520type%253D%2522radio%2522%250A%2520%2520%2520name%253D%2522sample%2522%250A%2520%2520%2520disabled%250A%2520%2520%2520%252F%253E%250ADisabled%250A%253C%252Flabel%253E"
-                style="
-                  width: 100%;
-                  height: 711px;
-                  border: 0;
-                  transform: scale(1);
-                  overflow: hidden;
-                "
-                sandbox="allow-scripts allow-same-origin"
-              >
-              </iframe>
-            </div>
-            <hr />
             <div class="component-type">Checkbox Input</div>
-
             <div class="component-example">
               <div class="inp-container-row">
-                <label for="checked" class="checkbox-label">
-                  <input
-                    id="checked"
-                    class="checkbox-inp"
-                    type="checkbox"
-                    checked
-                  />
-                  Checked
-                </label>
-                <label for="unchecked" class="checkbox-label">
-                  <input for="unchecked" class="checkbox-inp" type="checkbox" />
-                  Unchecked
-                </label>
-                <label for="disabled" class="checkbox-label disabled">
-                  <input
-                    for="disabled"
-                    class="checkbox-inp"
-                    type="checkbox"
-                    disabled
-                  />
-                  Disabled
-                </label>
+                <button id="btn-modal" class="btn primary">Modal</button>
+              </div>
+            </div>
+            <div class="modal-backdrop"></div>
+            <div class="modal">
+              <div class="modal-container">
+                <div class="modal-header">
+                  <p>Modal Header</p>
+                </div>
+                <div class="modal-body">
+                  <p>Modal Body</p>
+                </div>
+                <div class="modal-footer">
+                  <div class="modal-actions">
+                    <button id="accept" class="btn success">Accept</button>
+                    <button id="decline" class="btn secondary">Decline</button>
+                  </div>
+                </div>
               </div>
             </div>
             <div class="component-code">
               <iframe
-                src="https://carbon.now.sh/embed?bg=rgba%2866%2C66%2C66%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Clabel%2520for%253D%2522checked%2522%2520class%253D%2522checkbox-label%2522%253E%250A%253Cinput%250A%2520%2520%2520id%253D%2522checked%2522%250A%2520%2520%2520class%253D%2522checkbox-inp%2522%250A%2520%2520%2520type%253D%2522checkbox%2522%250A%2520%2520%2520checked%250A%2520%2520%2520%252F%253E%250AChecked%250A%253C%252Flabel%253E%250A%253Clabel%2520for%253D%2522unchecked%2522%2520class%253D%2522checkbox-label%2522%253E%250A%253Cinput%2520for%253D%2522unchecked%2522%2520class%253D%2522checkbox-inp%2522%2520type%253D%2522checkbox%2522%2520%252F%253E%250AUnchecked%250A%253C%252Flabel%253E%250A%253Clabel%2520for%253D%2522disabled%2522%2520class%253D%2522checkbox-label%2520disabled%2522%253E%250A%253Cinput%250A%2520%2520%2520for%253D%2522disabled%2522%250A%2520%2520%2520class%253D%2522checkbox-inp%2522%250A%2520%2520%2520type%253D%2522checkbox%2522%250A%2520%2520%2520disabled%250A%2520%2520%2520%252F%253E%250ADisabled%250A%253C%252Flabel%253E"
+                src="https://carbon.now.sh/embed?bg=rgba%2866%2C66%2C66%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522modal-backdrop%2522%253E%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522modal%2522%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522modal-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-header%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EModal%2520Header%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-body%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EModal%2520Body%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-actions%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520id%253D%2522accept%2522%2520class%253D%2522btn%2520success%2522%253EAccept%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520id%253D%2522decline%2522%2520class%253D%2522btn%2520secondary%2522%253EDecline%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
                 style="
                   width: 100%;
-                  height: 580px;
+                  height: 487px;
                   border: 0;
                   transform: scale(1);
                   overflow: hidden;
@@ -204,12 +112,15 @@
             </div>
 
             <div class="next-link">
-              <a href="../image/image.html">< Image</a>
-              <a href="../modal/modal.html">Avatar ></a>
+              <a href="../input/input.html">< Input</a>
+              <a href="../simplifiedGrid/simplifiedGrid.html"
+                >Simplified Grid ></a
+              >
             </div>
           </div>
         </div>
       </div>
     </div>
+    <script src="./modal.js"></script>
   </body>
 </html>
