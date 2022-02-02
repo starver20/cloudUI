@@ -1,0 +1,62 @@
+.inp {
+  width: 100%;
+  padding: 1.3rem;
+  font-size: 1.6rem;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid black;
+}
+
+.inp-wrapper {
+  position: relative;
+  margin-bottom: 4rem;
+  width: 100%;
+}
+
+.inp-wrapper:last-child {
+  margin-bottom: 0;
+}
+
+.inp-label {
+  background-color: white;
+  position: absolute;
+  left: 10px;
+  top: -8px;
+  font-size: 1.3rem;
+}
+
+.inp-wrapper.inp-err .inp {
+  border: 1px solid var(--primary-danger-color);
+}
+.inp-wrapper.inp-err .inp-label {
+  color: var(--primary-danger-color);
+}
+
+.inp-err-msg {
+  margin-top: 10px;
+  color: var(--primary-danger-color-hover);
+  font-size: 1.2rem;
+}
+
+.inp:focus {
+  border: 1px solid var(--primary-cta-color-hover);
+}
+
+/* Radio */
+.radio-label,
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.radio-inp,
+.checkbox-inp {
+  margin-right: 5px;
+  size: 2rem;
+  accent-color: var(--primary-danger-color-hover);
+}
+
+.disabled {
+  cursor: not-allowed;
+}
