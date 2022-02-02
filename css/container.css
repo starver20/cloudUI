@@ -150,3 +150,12 @@
     width: 80%;
   }
 }
+
+/* image */
+
+.img-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+}
