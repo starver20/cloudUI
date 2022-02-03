@@ -1,12 +1,9 @@
-* {
-  font-size: 110%;
-}
-
 .alert {
   padding: 1rem;
   margin-bottom: 2rem;
   color: white;
   border-radius: 5px;
+  font-size: 15px;
 }
 
 .primary-cta {

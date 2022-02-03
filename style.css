@@ -1,65 +1,44 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url(./css/reset.css);
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-:root {
-  --primary-cta-color: #1d9bf0;
-  --primary-warning-color: #ffbe4f;
-  --primary-danger-color: #ff695b;
-  --primary-success-color: #3dcc79;
-
-  --primary-cta-color-hover: #0482d7;
-  --primary-warning-color-hover: #e6a536;
-  --primary-danger-color-hover: #e65042;
-  --primary-success-color-hover: #24b360;
-
-  --secondary-cta-color: #cfe2ff;
-  --secondary-warning-color: #fff3cd;
-  --secondary-danger-color: #f8d7da;
-  --secondary-success-color: #d1e7dd;
-
-  --background: #e9ecef;
-
-  font-family: 'Roboto', sans-serif;
-  font-size: 62.5%;
-}
-
-li {
-  list-style: none;
-}
-
-a {
-  color: black;
+.landing-btn a {
   text-decoration: none;
-}
-
-.landing-btn {
   color: white;
-}
-
-hr {
-  margin: 3rem auto;
-  border-top: none;
-  border-left: none;
-  border-right: none;
-  border-bottom: 1px solid var(--background);
 }
 
 .landing-page {
   text-align: center;
+  width: 80%;
+  margin: auto;
 }
 
 .landing-page-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   place-items: center;
-  padding-top: 20rem;
-  width: 80%;
-  margin: auto;
+  padding: 20rem 0 15rem 0;
+}
+
+.installation {
+  margin-top: 20rem;
+  text-align: left;
+}
+
+.installation h1 {
+  font-size: 4rem;
+  padding-bottom: 2rem;
+}
+
+.installation h2 {
+  margin-top: 4rem;
+  font-size: 2.5rem;
+}
+.installation p {
+  font-size: 2rem;
+  margin-bottom: 4rem;
+}
+
+.arrow-down {
+  color: white;
 }
 
 .landing-title {
@@ -83,7 +62,7 @@ hr {
   background-color: var(--primary-cta-color);
   padding: 2rem;
   color: white;
-  margin-top: 10rem;
+  margin: 10rem 0;
   background-color: var(--primary-cta-color);
   border: none;
   border-radius: 4rem;

@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-cta-color: #1d9bf0;
+  --primary-warning-color: #ffbe4f;
+  --primary-danger-color: #ff695b;
+  --primary-success-color: #3dcc79;
+
+  --primary-cta-color-hover: #0482d7;
+  --primary-warning-color-hover: #e6a536;
+  --primary-danger-color-hover: #e65042;
+  --primary-success-color-hover: #24b360;
+
+  --secondary-cta-color: #cfe2ff;
+  --secondary-warning-color: #fff3cd;
+  --secondary-danger-color: #f8d7da;
+  --secondary-success-color: #d1e7dd;
+
+  --background: #e9ecef;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 62.5%;
+}
