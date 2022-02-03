@@ -49,3 +49,9 @@ To ensure proper working of some components add the below code above closing `<b
 ## Live Link -
 
 Documentation for [CloudUI](https://cloud-uii.netlify.app/)
+
+## ScreenShots -
+
+![Screenshot](./assets/Screenshot_20220204_020606.png)
+![Screenshot](./assets/Screenshot_20220204_020625.png)
+![Screenshot](./assets/Screenshot_20220204_020651.png)
