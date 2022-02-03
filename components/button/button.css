@@ -93,7 +93,7 @@
 }
 
 .btn-float {
-  background-color: var(--primary-danger-color);
+  background-color: var(--primary-cta-color);
   border-radius: 100%;
   width: 60px;
   height: 60px;

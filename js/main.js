@@ -1,42 +1,42 @@
-// Modal Elements
-
-// Toast Elements
 const baseBtn = document.getElementById('btn-baseline');
 const baselineToast = document.getElementById('toast');
-// const timer = document.getElementById('timer');
+const timer = document.getElementById('timer');
 
-const modalBtn = document.getElementById('btn-modal');
 const backdrop = document.querySelector('.modal-backdrop');
+const modalBtn = document.getElementById('btn-modal');
 const modal = document.querySelector('.modal');
 const acceptBtn = document.getElementById('accept');
 const declineBtn = document.getElementById('decline');
 
-baseBtn.addEventListener('click', () => {
-  baselineToast.style.display = 'flex';
-  // timer.style.display = 'initial';
+// Toast Logic
+if (baseBtn !== null) {
+  baseBtn.addEventListener('click', () => {
+    baselineToast.style.display = 'flex';
+    timer.style.display = 'initial';
 
-  setTimeout(() => {
-    baselineToast.style.display = 'none';
-    // timer.style.display = 'none';
-  }, 4000);
-});
+    setTimeout(() => {
+      baselineToast.style.display = 'none';
+      timer.style.display = 'none';
+    }, 4000);
+  });
+}
 
 // Modal Logic
-modalBtn.addEventListener('click', () => {
-  modal.style.display = 'flex';
-  backdrop.style.display = 'block';
-});
+if (modalBtn !== null) {
+  modalBtn.addEventListener('click', () => {
+    console.log('Inside Modal');
+    modal.style.display = 'flex';
+    backdrop.style.display = 'block';
+  });
 
-console.log('Modal Test');
-acceptBtn.addEventListener('click', () => close());
+  acceptBtn.addEventListener('click', () => close());
 
-declineBtn.addEventListener('click', () => close());
+  declineBtn.addEventListener('click', () => close());
 
-backdrop.addEventListener('click', () => close());
+  backdrop.addEventListener('click', () => close());
 
-let close = () => {
-  modal.style.display = 'none';
-  backdrop.style.display = 'none';
-};
-
-console.log('Amar');
+  let close = () => {
+    modal.style.display = 'none';
+    backdrop.style.display = 'none';
+  };
+}
