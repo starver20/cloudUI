@@ -25,6 +25,8 @@
   width: 100%;
   height: 6px;
   background-color: var(--primary-success-color);
+  animation: progress 4s forwards;
+  display: none;
 }
 
 @keyframes fade {
@@ -36,16 +38,29 @@
     transform: translateX(0);
   }
 
-  50% {
-    transform: translateX(0);
-  }
-
   85% {
     transform: translateX(0);
   }
 
   100% {
     transform: translateX(-500px);
-    display: none;
+  }
+}
+
+@keyframes progress {
+  0% {
+    width: 100%;
+  }
+
+  15% {
+    width: 100%;
+  }
+
+  85% {
+    width: 0%;
+  }
+
+  100% {
+    width: 0%;
   }
 }
