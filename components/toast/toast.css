@@ -14,6 +14,14 @@
   animation: fade 4s forwards;
 }
 
+.toast:hover {
+  animation-play-state: paused;
+}
+
+.toast:hover .timer {
+  animation-play-state: paused;
+}
+
 .toast-content {
   margin-right: 1rem;
   font-size: 15px;
