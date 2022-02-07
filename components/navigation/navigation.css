@@ -14,6 +14,10 @@
   position: relative;
 }
 
+.nav-icon > a > svg {
+  width: 2.8rem;
+}
+
 .icon-number {
   position: absolute;
   background-color: var(--error-color);

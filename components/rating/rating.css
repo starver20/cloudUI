@@ -1,0 +1,23 @@
+.filter-type {
+  margin-bottom: 5rem;
+  text-align: left;
+}
+
+.filter-type-title {
+  margin-bottom: 1rem;
+  font-size: var(--body-2);
+  font-weight: 400;
+}
+
+.rating-range {
+  accent-color: var(--primary-color);
+  width: 100%;
+}
+
+.ratings {
+  margin-top: 0.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: var(--body-4);
+}

@@ -4,10 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/af3ffc244b.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="../../css/components.css" />
     <link rel="stylesheet" href="../../css/container.css" />
     <link rel="stylesheet" href="../../css/navbar.css" />
-    <title>Lists</title>
+    <title>Rating</title>
   </head>
   <body>
     <div class="main-container">
@@ -58,12 +62,12 @@
             <a href="../card/card.html" class="sidebar-item">Card</a>
             <a href="../image/image.html" class="sidebar-item">Image</a>
             <a href="../input/input.html" class="sidebar-item">Input</a>
-            <a href="#" class="sidebar-item active">List</a>
+            <a href="../list/list.html" class="sidebar-item">List</a>
             <a href="../modal/modal.html" class="sidebar-item">Modal</a>
             <a href="../navigation/navigation.html" class="sidebar-item"
               >Navbar</a
             >
-            <a href="../rating/rating.html" class="sidebar-item">Rating</a>
+            <a href="#" class="sidebar-item active">Rating</a>
             <a href="../simplifiedGrid/simplifiedGrid.html" class="sidebar-item"
               >Simplified Grid</a
             >
@@ -75,27 +79,64 @@
         </aside>
         <div class="main-content-container">
           <div class="main-content">
-            <h1 class="component-title">List</h1>
+            <h1 class="component-title">Rating</h1>
             <p class="component-info">
-              Lists can be used to group together relevent information and
-              display it a list.
+              It is an essential element of a e-commerce website, user can use
+              it to filter products according to their choice.
             </p>
+            <div class="component-example">
+              <div class="filter-type">
+                <h2 class="filter-type-title">Ratings</h2>
+                <input
+                  class="rating-range filter-type-inp"
+                  type="range"
+                  step="1"
+                  min="1"
+                  max="5"
+                  name="rating"
+                  id="rating-range"
+                />
+                <div class="ratings">
+                  <span>1</span>
+                  <span>2</span>
+                  <span>3</span>
+                  <span>4</span>
+                  <span>5</span>
+                </div>
+              </div>
+            </div>
+            <div class="component-code">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%2866%2C66%2C66%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522filter-type%2522%253E%250A%2520%2520%2520%253Ch2%2520class%253D%2522filter-type-title%2522%253ERatings%253C%252Fh2%253E%250A%2520%2520%2520%253Cinput%250A%2520%2520%2520%2520%2520%2520class%253D%2522rating-range%2520filter-type-inp%2522%250A%2520%2520%2520%2520%2520%2520type%253D%2522range%2522%250A%2520%2520%2520%2520%2520%2520step%253D%25221%2522%250A%2520%2520%2520%2520%2520%2520min%253D%25221%2522%250A%2520%2520%2520%2520%2520%2520max%253D%25225%2522%250A%2520%2520%2520%2520%2520%2520name%253D%2522rating%2522%250A%2520%2520%2520%2520%2520%2520id%253D%2522rating-range%2522%250A%2520%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522ratings%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%253E1%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%253E2%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%253E3%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%253E4%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%253E5%253C%252Fspan%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                style="
+                  width: 100%;
+                  height: 413px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+            <hr />
 
-            <div class="component-example">
-              <p class="list-title">Simple List</p>
-              <ul>
-                <li class="list">Clippers</li>
-                <li class="list">Lakers</li>
-                <li class="list">Golden State</li>
-                <li class="list">Celtics</li>
-              </ul>
+            <h2 class="filter-type-title">Give Ratings to Products</h2>
+            <div class="component-example inp-container-row">
+              <div class="filter-type">
+                <i class="fas fa-star fa-2x"></i>
+                <i class="fas fa-star fa-2x"></i>
+                <i class="fas fa-star fa-2x"></i>
+                <i class="fas fa-star fa-2x"></i>
+                <i class="far fa-star fa-2x"></i>
+              </div>
             </div>
             <div class="component-code">
               <iframe
-                src="https://carbon.now.sh/embed?bg=rgba%2866%2C66%2C66%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cp%2520class%253D%2522list-title%2522%253ESimple%2520List%253C%252Fp%253E%250A%253Cul%253E%250A%2520%2520%2520%253Cli%2520class%253D%2522list%2522%253EClippers%253C%252Fli%253E%250A%2520%2520%2520%253Cli%2520class%253D%2522list%2522%253ELakers%253C%252Fli%253E%250A%2520%2520%2520%253Cli%2520class%253D%2522list%2522%253EGolden%2520State%253C%252Fli%253E%250A%2520%2520%2520%253Cli%2520class%253D%2522list%2522%253ECeltics%253C%252Fli%253E%250A%253C%252Ful%253E"
+                src="https://carbon.now.sh/embed?bg=rgba%2866%2C66%2C66%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Ci%2520class%253D%2522fas%2520fa-star%2520fa-2x%2522%253E%253C%252Fi%253E%250A%253Ci%2520class%253D%2522fas%2520fa-star%2520fa-2x%2522%253E%253C%252Fi%253E%250A%253Ci%2520class%253D%2522fas%2520fa-star%2520fa-2x%2522%253E%253C%252Fi%253E%250A%253Ci%2520class%253D%2522fas%2520fa-star%2520fa-2x%2522%253E%253C%252Fi%253E%250A%253Ci%2520class%253D%2522far%2520fa-star%2520fa-2x%2522%253E%253C%252Fi%253E"
                 style="
                   width: 100%;
-                  height: 204px;
+                  height: 152px;
                   border: 0;
                   transform: scale(1);
                   overflow: hidden;
@@ -104,39 +145,10 @@
               >
               </iframe>
             </div>
-            <hr />
-            <div class="component-type">Stacked List</div>
-            <p class="component-info">
-              It can be used to create notification or toast stack.
-            </p>
-            <div class="component-example">
-              <p class="list-title">Stacked List</p>
-              <ul>
-                <li class="list stacked">Clippers</li>
-                <li class="list stacked">Lakers</li>
-                <li class="list stacked">Golden State</li>
-                <li class="list stacked">Celtics</li>
-              </ul>
-            </div>
-            <div class="component-code">
-              <iframe
-                src="https://carbon.now.sh/embed?bg=rgba%2866%2C66%2C66%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cp%2520class%253D%2522list-title%2522%253EStacked%2520List%253C%252Fp%253E%250A%253Cul%253E%250A%2520%2520%2520%253Cli%2520class%253D%2522list%2520stacked%2522%253EClippers%253C%252Fli%253E%250A%2520%2520%2520%253Cli%2520class%253D%2522list%2520stacked%2522%253ELakers%253C%252Fli%253E%250A%2520%2520%2520%253Cli%2520class%253D%2522list%2520stacked%2522%253EGolden%2520State%253C%252Fli%253E%250A%2520%2520%2520%253Cli%2520class%253D%2522list%2520stacked%2522%253ECeltics%253C%252Fli%253E%250A%253C%252Ful%253E"
-                style="
-                  width: 100%;
-                  height: 204px;
-                  border: 0;
-                  transform: scale(1);
-                  overflow: hidden;
-                "
-                sandbox="allow-scripts allow-same-origin"
-              >
-              </iframe>
-            </div>
-            <hr />
 
             <div class="next-link">
-              <a href="../input/input.html">< Input</a>
-              <a href="../modal/modal.html">Modal ></a>
+              <a href=""></a>
+              <a href="../avatar/avatar.html">Avatar ></a>
             </div>
           </div>
         </div>
