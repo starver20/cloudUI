@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../../css/components.css" />
     <link rel="stylesheet" href="../../css/container.css" />
     <link rel="stylesheet" href="../../css/navbar.css" />
-    <title>Typography</title>
+    <title>Rating</title>
   </head>
   <body>
     <div class="main-container">
@@ -59,36 +59,52 @@
             <a href="../list/list.html" class="sidebar-item">List</a>
             <a href="../modal/modal.html" class="sidebar-item">Modal</a>
             <a href="../navigation/navigation.html" class="sidebar-item"
-              >Navigation</a
+              >Navbar</a
             >
-            <a href="../rating/rating.html" class="sidebar-item">Rating</a>
+            <a href="#" class="sidebar-item active">Rating</a>
             <a href="../simplifiedGrid/simplifiedGrid.html" class="sidebar-item"
               >Simplified Grid</a
             >
-            <a href="#" class="sidebar-item active">Text-utils</a>
+            <a href="../text-utils/text.html" class="sidebar-item"
+              >Text-utils</a
+            >
             <a href="../toast/toast.html" class="sidebar-item">Toast</a>
           </ul>
         </aside>
         <div class="main-content-container">
           <div class="main-content">
-            <h1 class="component-title">Typography</h1>
+            <h1 class="component-title">Rating</h1>
             <p class="component-info">
-              Different section of a website require different texts to assert
-              importance and order. It can be achieved using diverse typography.
-              We have 3 header and 7 body text types
+              It is an essential element of a e-commerce website, user can use
+              it to filter products according to their choice.
             </p>
-            <div class="component-type">Headers</div>
             <div class="component-example">
-              <p class="h-1">HEADER 1</p>
-              <p class="h-2">HEADER 2</p>
-              <p class="h-3">HEADER 3</p>
+              <div class="filter-type">
+                <h2 class="filter-type-title">Ratings</h2>
+                <input
+                  class="rating-range filter-type-inp"
+                  type="range"
+                  step="1"
+                  min="1"
+                  max="5"
+                  name="rating"
+                  id="rating-range"
+                />
+                <div class="ratings">
+                  <span>1</span>
+                  <span>2</span>
+                  <span>3</span>
+                  <span>4</span>
+                  <span>5</span>
+                </div>
+              </div>
             </div>
             <div class="component-code">
               <iframe
-                src="https://carbon.now.sh/embed?bg=rgba%2866%2C66%2C66%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cp%2520class%253D%2522h-1%2522%253EHEADER%25201%253C%252Fp%253E%250A%253Cp%2520class%253D%2522h-2%2522%253EHEADER%25202%253C%252Fp%253E%250A%253Cp%2520class%253D%2522h-3%2522%253EHEADER%25203%253C%252Fp%253E"
+                src="https://carbon.now.sh/embed?bg=rgba%2866%2C66%2C66%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522filter-type%2522%253E%250A%2520%2520%2520%253Ch2%2520class%253D%2522filter-type-title%2522%253ERatings%253C%252Fh2%253E%250A%2520%2520%2520%253Cinput%250A%2520%2520%2520%2520%2520%2520class%253D%2522rating-range%2520filter-type-inp%2522%250A%2520%2520%2520%2520%2520%2520type%253D%2522range%2522%250A%2520%2520%2520%2520%2520%2520step%253D%25221%2522%250A%2520%2520%2520%2520%2520%2520min%253D%25221%2522%250A%2520%2520%2520%2520%2520%2520max%253D%25225%2522%250A%2520%2520%2520%2520%2520%2520name%253D%2522rating%2522%250A%2520%2520%2520%2520%2520%2520id%253D%2522rating-range%2522%250A%2520%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522ratings%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%253E1%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%253E2%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%253E3%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%253E4%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%253E5%253C%252Fspan%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
                 style="
                   width: 100%;
-                  height: 130px;
+                  height: 413px;
                   border: 0;
                   transform: scale(1);
                   overflow: hidden;
@@ -97,76 +113,10 @@
               >
               </iframe>
             </div>
-            <hr />
-            <div class="component-type">Body texts</div>
-            <div class="component-example">
-              <p class="b-1">BODY 1</p>
-              <p class="b-2">BODY 2</p>
-              <p class="b-3">BODY 3</p>
-              <p class="b-4">BODY 4</p>
-              <p class="b-5">BODY 5</p>
-              <p class="b-6">BODY 6</p>
-              <p class="b-7">BODY 7</p>
-            </div>
-            <div class="component-code">
-              <iframe
-                src="https://carbon.now.sh/embed?bg=rgba%2866%2C66%2C66%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cp%2520class%253D%2522b-1%2522%253EBODY%25201%253C%252Fp%253E%250A%253Cp%2520class%253D%2522b-2%2522%253EBODY%25202%253C%252Fp%253E%250A%253Cp%2520class%253D%2522b-3%2522%253EBODY%25203%253C%252Fp%253E%250A%253Cp%2520class%253D%2522b-4%2522%253EBODY%25204%253C%252Fp%253E%250A%253Cp%2520class%253D%2522b-5%2522%253EBODY%25205%253C%252Fp%253E%250A%253Cp%2520class%253D%2522b-6%2522%253EBODY%25206%253C%252Fp%253E%250A%253Cp%2520class%253D%2522b-7%2522%253EBODY%25207%253C%252Fp%253E"
-                style="
-                  width: 100%;
-                  height: 204px;
-                  border: 0;
-                  transform: scale(1);
-                  overflow: hidden;
-                "
-                sandbox="allow-scripts allow-same-origin"
-              >
-              </iframe>
-            </div>
-            <hr />
-            <div class="component-type">Grey text</div>
-            <div class="component-example">
-              <p class="h-1 txt-grey">HEADER 1</p>
-            </div>
-            <div class="component-code">
-              <iframe
-                src="https://carbon.now.sh/embed?bg=rgba%2866%2C66%2C66%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cp%2520class%253D%2522h-1%2520txt-grey%2522%253EHEADER%25201%253C%252Fp%253E"
-                style="
-                  width: 100%;
-                  height: 93px;
-                  border: 0;
-                  transform: scale(1);
-                  overflow: hidden;
-                "
-                sandbox="allow-scripts allow-same-origin"
-              >
-              </iframe>
-            </div>
-            <hr />
-            <div class="component-type">Center text</div>
-            <div class="component-example">
-              <p class="h-1 align-center">HEADER 1</p>
-            </div>
-            <div class="component-code">
-              <iframe
-                src="https://carbon.now.sh/embed?bg=rgba%2866%2C66%2C66%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cp%2520class%253D%2522h-1%2520align-center%2522%253EHEADER%25201%253C%252Fp%253E"
-                style="
-                  width: 100%;
-                  height: 93px;
-                  border: 0;
-                  transform: scale(1);
-                  overflow: hidden;
-                "
-                sandbox="allow-scripts allow-same-origin"
-              >
-              </iframe>
-            </div>
-            <hr />
 
             <div class="next-link">
-              <a href="../simplifiedGrid/simplifiedGrid.html"
-                >< Simplified Grid</a
-              >
-              <a href="../toast/toast.html">Toast ></a>
+              <a href=""></a>
+              <a href="../avatar/avatar.html">Avatar ></a>
             </div>
           </div>
         </div>
