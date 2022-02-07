@@ -1,0 +1,16 @@
+.list-title {
+  font-size: var(--header-3);
+}
+
+.list {
+  font-size: var(--body-4);
+}
+
+.stacked {
+  background-color: var(--primary-cta-color);
+  margin-top: 5px;
+  padding: 1rem;
+  border-radius: var(--radius-2);
+  color: white;
+  /* height: 2rem; */
+}
