@@ -1,0 +1,110 @@
+.header {
+  max-width: 100vw;
+  background-color: var(--background-color);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.nav-icon {
+  width: 2.8rem;
+  margin-left: 2rem;
+  cursor: pointer;
+  position: relative;
+}
+
+.icon-number {
+  position: absolute;
+  background-color: var(--error-color);
+  border-radius: var(--radius-full);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1.8rem;
+  width: 1.8rem;
+  padding: 3px;
+  color: white;
+  font-weight: 700;
+  top: -2px;
+  right: -1rem;
+}
+
+.navbar {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  padding: var(--spacing-4);
+  margin: auto;
+}
+
+.navbar a {
+  text-decoration: none;
+}
+
+.nav-logo {
+  flex: 0 0 10%;
+  font-size: var(--header-2);
+  cursor: pointer;
+  font-weight: 900;
+  color: var(--primary-color);
+}
+
+.nav-action-container {
+  flex: 0 0 10%;
+}
+
+.nav-search {
+  flex: 1 1 80%;
+  min-width: 100px;
+  text-align: center;
+}
+
+.nav-search input {
+  width: 30%;
+  height: var(--spacing-28);
+  font-size: var(--body-3);
+  padding: var(--spacing-4) var(--spacing-12);
+  border: 1px solid var(--sub-text-color);
+  border-radius: var(--radius-1);
+}
+.nav-search input:focus {
+  outline: none;
+}
+
+.nav-action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.nav--action__login {
+  padding: 0 var(--spacing-12);
+  border-radius: 2px;
+  border: none;
+  background-color: var(--primary-color);
+  color: white;
+  cursor: pointer;
+  font-size: var(--body-3);
+  height: var(--spacing-28);
+}
+
+.nav--action__login:hover {
+  background-color: var(--secondary-color);
+  color: white;
+}
+
+@media (max-width: 600px) {
+  .nav-search {
+    display: none;
+  }
+}
+
+@media (max-width: 440px) {
+  .navbar {
+    width: 90%;
+  }
+}
