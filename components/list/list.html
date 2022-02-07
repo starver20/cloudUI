@@ -4,14 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="./list.css" />
     <link rel="stylesheet" href="../../css/components.css" />
     <link rel="stylesheet" href="../../css/container.css" />
     <link rel="stylesheet" href="../../css/navbar.css" />
-    <title>Button</title>
+    <title>Lists</title>
   </head>
   <body>
     <div class="main-container">
@@ -56,11 +53,11 @@
             <a href="../alert/alert.html" class="sidebar-item">Alert</a>
             <a href="../avatar/avatar.html" class="sidebar-item">Avatar</a>
             <a href="../badge/badge.html" class="sidebar-item">Badge</a>
-            <a href="#" class="sidebar-item active">Button</a>
+            <a href="../button/button.html" class="sidebar-item">Button</a>
             <a href="../card/card.html" class="sidebar-item">Card</a>
             <a href="../image/image.html" class="sidebar-item">Image</a>
             <a href="../input/input.html" class="sidebar-item">Input</a>
-            <a href="../list/list.html" class="sidebar-item">List</a>
+            <a href="#" class="sidebar-item active">List</a>
             <a href="../modal/modal.html" class="sidebar-item">Modal</a>
             <a href="../navigation/navigation.html" class="sidebar-item"
               >Navbar</a
@@ -77,92 +74,27 @@
         </aside>
         <div class="main-content-container">
           <div class="main-content">
-            <h1 class="component-title">Button</h1>
+            <h1 class="component-title">List</h1>
             <p class="component-info">
-              The Button component is used to trigger an action or event, such
-              as submitting a form, opening a dialog, canceling an action, or
-              performing a delete operation.
+              Lists can be used to group together relevent information and
+              display it a list.
             </p>
-            <div class="component-type">Button Types</div>
-            <p class="component-info">
-              The different types of buttons are as follows. The can be created
-              using the base <strong>btn</strong> class and additional primary |
-              <strong>secondary</strong> | <strong>success</strong> |
-              <strong>warning</strong> | <strong>danger</strong> classes for
-              colors.
-            </p>
-            <div class="component-example">
-              <div class="button-container">
-                <button class="btn primary">Primary</button>
-                <button class="btn secondary">Secondary</button>
-                <button class="btn success">Success</button>
-                <button class="btn warning">Warning</button>
-                <button class="btn danger">Danger</button>
-              </div>
-            </div>
-            <div class="component-code">
-              <iframe
-                src="https://carbon.now.sh/embed?bg=rgba%2866%2C66%2C66%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520primary%2522%253EPrimary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520secondary%2522%253ESecondary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520success%2522%253ESuccess%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520warning%2522%253EWarning%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520danger%2522%253EDanger%253C%252Fbutton%253E"
-                style="
-                  width: 100%;
-                  height: 264px;
-                  border: 0;
-                  transform: scale(1);
-                  overflow: hidden;
-                "
-                sandbox="allow-scripts allow-same-origin"
-              >
-              </iframe>
-            </div>
-            <hr />
-            <div class="component-type">Button Sizes</div>
-            <p class="component-info">
-              The buttons can be sized by adding <strong>btn-xs</strong> |
-              <strong>btn-sm</strong> | <strong>btn-md</strong> |
-              <strong>btn-lg</strong> classes.
-            </p>
-            <div class="component-example">
-              <div class="button-container">
-                <button class="btn primary btn-xs">Button x-Small</button>
-                <button class="btn primary btn-sm">Button Small</button>
-                <button class="btn primary btn-md">Button Medium</button>
-                <button class="btn primary btn-lg">Button Large</button>
-              </div>
-            </div>
-            <div class="component-code">
-              <iframe
-                src="https://carbon.now.sh/embed?bg=rgba%2866%2C66%2C66%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520primary%2520btn-xs%2522%253EButton%2520x-Small%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520primary%2520btn-sm%2522%253EButton%2520Small%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520primary%2520btn-md%2522%253EButton%2520Medium%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520primary%2520btn-lg%2522%253EButton%2520Large%253C%252Fbutton%253E"
-                style="
-                  width: 100%;
-                  height: 245px;
-                  border: 0;
-                  transform: scale(1);
-                  overflow: hidden;
-                "
-                sandbox="allow-scripts allow-same-origin"
-              >
-              </iframe>
-            </div>
-            <hr />
 
-            <div class="component-type">Link Button</div>
-            <p class="component-info">
-              Can be created by removing the color classes and adding
-              <strong>link</strong> class.
-            </p>
             <div class="component-example">
-              <div class="button-container">
-                <button class="btn btn-lg link">
-                  <a href="../alert/alert.html">Link Button</a>
-                </button>
-              </div>
+              <p class="list-title">Simple List</p>
+              <ul>
+                <li class="list">Clippers</li>
+                <li class="list">Lakers</li>
+                <li class="list">Golden State</li>
+                <li class="list">Celtics</li>
+              </ul>
             </div>
             <div class="component-code">
               <iframe
-                src="https://carbon.now.sh/embed?bg=rgba%2866%2C66%2C66%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-lg%2520link%2522%253E%250A%2520%2520%253Ca%2520href%253D%2522..%252Falert%252Falert.html%2522%253ELink%2520Button%253C%252Fa%253E%250A%253C%252Fbutton%253E"
+                src="https://carbon.now.sh/embed?bg=rgba%2866%2C66%2C66%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cp%2520class%253D%2522list-title%2522%253ESimple%2520List%253C%252Fp%253E%250A%253Cul%253E%250A%2520%2520%2520%253Cli%2520class%253D%2522list%2522%253EClippers%253C%252Fli%253E%250A%2520%2520%2520%253Cli%2520class%253D%2522list%2522%253ELakers%253C%252Fli%253E%250A%2520%2520%2520%253Cli%2520class%253D%2522list%2522%253EGolden%2520State%253C%252Fli%253E%250A%2520%2520%2520%253Cli%2520class%253D%2522list%2522%253ECeltics%253C%252Fli%253E%250A%253C%252Ful%253E"
                 style="
                   width: 100%;
-                  height: 227px;
+                  height: 204px;
                   border: 0;
                   transform: scale(1);
                   overflow: hidden;
@@ -172,25 +104,25 @@
               </iframe>
             </div>
             <hr />
-
-            <div class="component-type">Icon Button</div>
+            <div class="component-type">Stacked List</div>
             <p class="component-info">
-              It can be created by adding <strong>btn-icon</strong> class on th
-              button and placing a icon span inside the button.
+              It can be used to create notification or toast stack.
             </p>
             <div class="component-example">
-              <div class="button-container">
-                <button class="btn success btn-lg btn-icon">
-                  <span class="material-icons"> settings </span>Settings
-                </button>
-              </div>
+              <p class="list-title">Stacked List</p>
+              <ul>
+                <li class="list stacked">Clippers</li>
+                <li class="list stacked">Lakers</li>
+                <li class="list stacked">Golden State</li>
+                <li class="list stacked">Celtics</li>
+              </ul>
             </div>
             <div class="component-code">
               <iframe
-                src="https://carbon.now.sh/embed?bg=rgba%2866%2C66%2C66%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520success%2520btn-lg%2520btn-icon%2522%253E%250A%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253E%2520settings%2520%253C%252Fspan%253ESettings%250A%253C%252Fbutton%253E"
+                src="https://carbon.now.sh/embed?bg=rgba%2866%2C66%2C66%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cp%2520class%253D%2522list-title%2522%253EStacked%2520List%253C%252Fp%253E%250A%253Cul%253E%250A%2520%2520%2520%253Cli%2520class%253D%2522list%2520stacked%2522%253EClippers%253C%252Fli%253E%250A%2520%2520%2520%253Cli%2520class%253D%2522list%2520stacked%2522%253ELakers%253C%252Fli%253E%250A%2520%2520%2520%253Cli%2520class%253D%2522list%2520stacked%2522%253EGolden%2520State%253C%252Fli%253E%250A%2520%2520%2520%253Cli%2520class%253D%2522list%2520stacked%2522%253ECeltics%253C%252Fli%253E%250A%253C%252Ful%253E"
                 style="
                   width: 100%;
-                  height: 242px;
+                  height: 204px;
                   border: 0;
                   transform: scale(1);
                   overflow: hidden;
@@ -200,34 +132,10 @@
               </iframe>
             </div>
             <hr />
-            <div class="component-type">Floating Action Button</div>
-            <p class="component-info">
-              Adding the <strong>btn-float</strong> class will create a floating
-              button.
-            </p>
-            <div class="component-example">
-              <div class="button-container">
-                <button class="btn btn-float">+</button>
-              </div>
-            </div>
-            <div class="component-code">
-              <iframe
-                src="https://carbon.now.sh/embed?bg=rgba%2866%2C66%2C66%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520danger%2520btn-float%2522%253E%252B%253C%252Fbutton%253E"
-                style="
-                  width: 100%;
-                  height: 190px;
-                  border: 0;
-                  transform: scale(1);
-                  overflow: hidden;
-                "
-                sandbox="allow-scripts allow-same-origin"
-              >
-              </iframe>
-            </div>
 
             <div class="next-link">
-              <a href="../badge/badge.html">< Badge</a>
-              <a href="../card/card.html">Card ></a>
+              <a href="../input/input.html">< Input</a>
+              <a href="../modal/modal.html">Modal ></a>
             </div>
           </div>
         </div>

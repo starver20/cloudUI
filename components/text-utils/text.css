@@ -1,0 +1,38 @@
+.h-1 {
+  font-size: var(--header-1);
+}
+.h-2 {
+  font-size: var(--header-2);
+}
+.h-3 {
+  font-size: var(--header-3);
+}
+
+.b-1 {
+  font-size: var(--body-1);
+}
+.b-2 {
+  font-size: var(--body-2);
+}
+.b-3 {
+  font-size: var(--body-3);
+}
+.b-4 {
+  font-size: var(--body-4);
+}
+.b-5 {
+  font-size: var(--body-5);
+}
+.b-6 {
+  font-size: var(--body-6);
+}
+.b-7 {
+  font-size: var(--body-7);
+}
+.txt-grey {
+  color: var(--sub-text-color);
+}
+
+.align-center {
+  text-align: center;
+}
