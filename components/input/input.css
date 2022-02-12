@@ -25,6 +25,20 @@
   font-size: 1.3rem;
 }
 
+.inp-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  accent-color: var(--primary-color);
+  font-size: var(--body-4);
+}
+
+.inp-container input {
+  margin-right: 1rem;
+  cursor: pointer;
+  transform: scale(1.5);
+}
+
 .inp-wrapper.inp-err .inp {
   border: 1px solid var(--primary-danger-color);
 }
@@ -43,20 +57,8 @@
 }
 
 /* Radio */
-.radio-label,
-.checkbox-label {
-  display: flex;
-  align-items: center;
-  font-size: 1.5rem;
-}
-
-.radio-inp,
-.checkbox-inp {
-  margin-right: 5px;
-  size: 2rem;
-  accent-color: var(--primary-danger-color-hover);
-}
 
 .disabled {
   cursor: not-allowed;
+  color: var(--sub-text-color);
 }
