@@ -124,43 +124,26 @@
 
             <div class="component-example">
               <div class="inp-container-row">
-                <label for="checked" class="radio-label">
-                  <input
-                    id="checked"
-                    class="radio-inp"
-                    type="radio"
-                    name="sample"
-                    checked
-                  />
-                  Checked
-                </label>
-                <label for="unchecked" class="radio-label">
-                  <input
-                    for="unchecked"
-                    class="radio-inp"
-                    name="sample"
-                    type="radio"
-                  />
-                  Unchecked
-                </label>
-                <label for="disabled" class="radio-label disabled">
-                  <input
-                    for="disabled"
-                    class="radio-inp"
-                    type="radio"
-                    name="sample"
-                    disabled
-                  />
-                  Disabled
-                </label>
+                <div class="inp-container">
+                  <input type="radio" name="price" id="price" checked />
+                  <label for="">Checked</label>
+                </div>
+                <div class="inp-container">
+                  <input type="radio" name="price" id="price" />
+                  <label for="">Unchecked</label>
+                </div>
+                <div class="inp-container">
+                  <input type="radio" name="price" id="price" disabled />
+                  <label class="disabled" for="">Disabled</label>
+                </div>
               </div>
             </div>
             <div class="component-code">
               <iframe
-                src="https://carbon.now.sh/embed?bg=rgba%2866%2C66%2C66%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Clabel%2520for%253D%2522checked%2522%2520class%253D%2522radio-label%2522%253E%250A%253Cinput%250A%2520%2520%2520id%253D%2522checked%2522%250A%2520%2520%2520class%253D%2522radio-inp%2522%250A%2520%2520%2520type%253D%2522radio%2522%250A%2520%2520%2520name%253D%2522sample%2522%250A%2520%2520%2520checked%250A%2520%2520%2520%252F%253E%250AChecked%250A%253C%252Flabel%253E%250A%253Clabel%2520for%253D%2522unchecked%2522%2520class%253D%2522radio-label%2522%253E%250A%253Cinput%250A%2520%2520%2520for%253D%2522unchecked%2522%250A%2520%2520%2520class%253D%2522radio-inp%2522%250A%2520%2520%2520name%253D%2522sample%2522%250A%2520%2520%2520type%253D%2522radio%2522%250A%2520%2520%2520%252F%253E%250AUnchecked%250A%253C%252Flabel%253E%250A%253Clabel%2520for%253D%2522disabled%2522%2520class%253D%2522radio-label%2520disabled%2522%253E%250A%253Cinput%250A%2520%2520%2520for%253D%2522disabled%2522%250A%2520%2520%2520class%253D%2522radio-inp%2522%250A%2520%2520%2520type%253D%2522radio%2522%250A%2520%2520%2520name%253D%2522sample%2522%250A%2520%2520%2520disabled%250A%2520%2520%2520%252F%253E%250ADisabled%250A%253C%252Flabel%253E"
+                src="https://carbon.now.sh/embed?bg=rgba%2866%2C66%2C66%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522inp-container%2522%253E%250A%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522price%2522%2520id%253D%2522price%2522%2520checked%2520%252F%253E%250A%2520%2520%2520%253Clabel%2520for%253D%2522%2522%253EChecked%253C%252Flabel%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522inp-container%2522%253E%250A%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522price%2522%2520id%253D%2522price%2522%2520%252F%253E%250A%2520%2520%2520%253Clabel%2520for%253D%2522%2522%253EUnchecked%253C%252Flabel%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522inp-container%2522%253E%250A%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522price%2522%2520id%253D%2522price%2522%2520disabled%2520%252F%253E%250A%2520%2520%2520%253Clabel%2520class%253D%2522disabled%2522%2520for%253D%2522%2522%253EDisabled%253C%252Flabel%253E%250A%253C%252Fdiv%253E"
                 style="
                   width: 100%;
-                  height: 711px;
+                  height: 282px;
                   border: 0;
                   transform: scale(1);
                   overflow: hidden;
@@ -174,36 +157,26 @@
 
             <div class="component-example">
               <div class="inp-container-row">
-                <label for="checked" class="checkbox-label">
-                  <input
-                    id="checked"
-                    class="checkbox-inp"
-                    type="checkbox"
-                    checked
-                  />
-                  Checked
-                </label>
-                <label for="unchecked" class="checkbox-label">
-                  <input for="unchecked" class="checkbox-inp" type="checkbox" />
-                  Unchecked
-                </label>
-                <label for="disabled" class="checkbox-label disabled">
-                  <input
-                    for="disabled"
-                    class="checkbox-inp"
-                    type="checkbox"
-                    disabled
-                  />
-                  Disabled
-                </label>
+                <div class="inp-container">
+                  <input type="checkbox" name="price" id="price" checked />
+                  <label for="">Checked</label>
+                </div>
+                <div class="inp-container">
+                  <input type="checkbox" name="price" id="price" />
+                  <label for="">Unchecked</label>
+                </div>
+                <div class="inp-container">
+                  <input type="checkbox" name="price" id="price" disabled />
+                  <label class="disabled" for="">Disabled</label>
+                </div>
               </div>
             </div>
             <div class="component-code">
               <iframe
-                src="https://carbon.now.sh/embed?bg=rgba%2866%2C66%2C66%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Clabel%2520for%253D%2522checked%2522%2520class%253D%2522checkbox-label%2522%253E%250A%253Cinput%250A%2520%2520%2520id%253D%2522checked%2522%250A%2520%2520%2520class%253D%2522checkbox-inp%2522%250A%2520%2520%2520type%253D%2522checkbox%2522%250A%2520%2520%2520checked%250A%2520%2520%2520%252F%253E%250AChecked%250A%253C%252Flabel%253E%250A%253Clabel%2520for%253D%2522unchecked%2522%2520class%253D%2522checkbox-label%2522%253E%250A%253Cinput%2520for%253D%2522unchecked%2522%2520class%253D%2522checkbox-inp%2522%2520type%253D%2522checkbox%2522%2520%252F%253E%250AUnchecked%250A%253C%252Flabel%253E%250A%253Clabel%2520for%253D%2522disabled%2522%2520class%253D%2522checkbox-label%2520disabled%2522%253E%250A%253Cinput%250A%2520%2520%2520for%253D%2522disabled%2522%250A%2520%2520%2520class%253D%2522checkbox-inp%2522%250A%2520%2520%2520type%253D%2522checkbox%2522%250A%2520%2520%2520disabled%250A%2520%2520%2520%252F%253E%250ADisabled%250A%253C%252Flabel%253E"
+                src="https://carbon.now.sh/embed?bg=rgba%2866%2C66%2C66%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522inp-container%2522%253E%250A%2520%2520%2520%253Cinput%2520type%253D%2522checkbox%2522%2520name%253D%2522price%2522%2520id%253D%2522price%2522%2520checked%2520%252F%253E%250A%2520%2520%2520%253Clabel%2520for%253D%2522%2522%253EChecked%253C%252Flabel%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522inp-container%2522%253E%250A%2520%2520%2520%253Cinput%2520type%253D%2522checkbox%2522%2520name%253D%2522price%2522%2520id%253D%2522price%2522%2520%252F%253E%250A%2520%2520%2520%253Clabel%2520for%253D%2522%2522%253EUnchecked%253C%252Flabel%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522inp-container%2522%253E%250A%2520%2520%2520%253Cinput%2520type%253D%2522checkbox%2522%2520name%253D%2522price%2522%2520id%253D%2522price%2522%2520disabled%2520%252F%253E%250A%2520%2520%2520%253Clabel%2520class%253D%2522disabled%2522%2520for%253D%2522%2522%253EDisabled%253C%252Flabel%253E%250A%253C%252Fdiv%253E"
                 style="
                   width: 100%;
-                  height: 580px;
+                  height: 282px;
                   border: 0;
                   transform: scale(1);
                   overflow: hidden;
