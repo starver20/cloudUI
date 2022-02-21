@@ -30,7 +30,7 @@
 
 .page {
   grid-template-areas:
-    'header header header header'
+    'nav nav nav nav'
     'sidebar main main main'
     'sidebar main main main'
     'sidebar main main main'
@@ -49,12 +49,6 @@
   grid-auto-flow: column;
 }
 
-.grid-row-col-3 {
-}
-
-.grid-item {
-}
-
 .green {
   background-color: var(--primary-success-color);
 }
@@ -69,15 +63,15 @@
   background-color: var(--primary-danger-color);
 }
 
-.header {
-  grid-area: header;
+.nav {
+  grid-area: nav;
 }
 
 .sidebar {
   grid-area: sidebar;
 }
 
-.main {
+.content {
   grid-area: main;
 }
 
