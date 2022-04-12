@@ -61,7 +61,7 @@
 }
 
 .nav-search {
-  flex: 1 1 80%;
+  /* flex: 1 1 80%; */
   width: 30%;
   min-width: 100px;
   text-align: center;
