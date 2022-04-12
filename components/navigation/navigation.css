@@ -62,12 +62,12 @@
 
 .nav-search {
   flex: 1 1 80%;
+  width: 30%;
   min-width: 100px;
   text-align: center;
 }
 
 .nav-search input {
-  width: 30%;
   height: var(--spacing-28);
   font-size: var(--body-3);
   padding: var(--spacing-4) var(--spacing-12);
