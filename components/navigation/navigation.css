@@ -18,6 +18,25 @@
   width: 2.8rem;
 }
 
+.nav-icon > a:link {
+  color: black;
+}
+
+/* visited link */
+.nav-icon > a:visited {
+  color: black;
+}
+
+/* mouse over link */
+.nav-icon > a:hover {
+  color: black;
+}
+
+/* selected link */
+.nav-icon > a:active {
+  color: black;
+}
+
 .icon-number {
   position: absolute;
   background-color: var(--error-color);
