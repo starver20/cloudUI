@@ -24,6 +24,9 @@ hr {
 
 .main-header {
   flex: 0 0 auto;
+  height: 100%;
+  position: sticky;
+  top: 20px;
 }
 
 .main-body {
@@ -47,6 +50,9 @@ hr {
   padding: 2rem;
   flex: 0 0 auto;
   width: 15vw;
+  height: 100%;
+  position: sticky;
+  top: 150px;
 }
 
 .sidebar-header {
